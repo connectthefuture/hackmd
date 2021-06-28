@@ -2,9 +2,10 @@
 # yarn lockfile v1
 
 
-"Idle.Js@github:shawnmclean/Idle.js":
+"Idle.Js@git+https://github.com/shawnmclean/Idle.js":
   version "0.0.1"
-  resolved "https://codeload.github.com/shawnmclean/Idle.js/tar.gz/f46e86f0328071b933035fd2121b82feb57aabb1"
+  uid db9beb3483a460ad638ec947867720f0ed066a62
+  resolved "git+https://github.com/shawnmclean/Idle.js#db9beb3483a460ad638ec947867720f0ed066a62"
 
 abab@^1.0.3:
   version "1.0.3"
@@ -1155,14 +1156,6 @@ cli@~1.0.0:
     exit "0.1.2"
     glob "^7.1.1"
 
-clipboard@^1.5.5:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-1.6.1.tgz#65c5b654812466b0faab82dc6ba0f1d2f8e4be53"
-  dependencies:
-    good-listener "^1.2.0"
-    select "^1.1.2"
-    tiny-emitter "^1.0.0"
-
 cliui@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-2.1.0.tgz#4b475760ff80264c762c3a1719032e91c7fea0d1"
@@ -1743,10 +1736,6 @@ del@^2.0.2:
 delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
-
-delegate@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/delegate/-/delegate-3.1.2.tgz#1e1bc6f5cadda6cb6cbf7e6d05d0bcdd5712aebe"
 
 delegates@^1.0.0:
   version "1.0.0"
@@ -2905,12 +2894,6 @@ glogg@^1.0.0:
   resolved "https://registry.yarnpkg.com/glogg/-/glogg-1.0.0.tgz#7fe0f199f57ac906cf512feead8f90ee4a284fc5"
   dependencies:
     sparkles "^1.0.0"
-
-good-listener@^1.2.0:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
-  dependencies:
-    delegate "^3.1.2"
 
 graceful-fs@*, graceful-fs@^4.1.2, graceful-fs@^4.1.4, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
   version "4.1.11"
@@ -5571,11 +5554,9 @@ pretty-hrtime@^1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz#b7e3ea42435a4c9b2759d99e0f201eb195802ee1"
 
-prismjs@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.6.0.tgz#118d95fb7a66dba2272e343b345f5236659db365"
-  optionalDependencies:
-    clipboard "^1.5.5"
+prismjs@^1.24.0:
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.24.0.tgz#0409c30068a6c52c89ef7f1089b3ca4de56be2ac"
 
 private@^0.1.6:
   version "0.1.7"
@@ -5682,9 +5663,10 @@ raphael@2.2.7:
   dependencies:
     eve-raphael "0.5.0"
 
-"raphael@github:dmitrybaranovskiy/raphael":
-  version "2.2.7"
-  resolved "https://codeload.github.com/dmitrybaranovskiy/raphael/tar.gz/fe8e591e1c86b5aeb4c252b33c08e647434504c5"
+"raphael@git+https://github.com/dmitrybaranovskiy/raphael":
+  version "2.3.0"
+  uid b5fdbdc9850827eb49622cd0bc81b26025f8128a
+  resolved "git+https://github.com/dmitrybaranovskiy/raphael#b5fdbdc9850827eb49622cd0bc81b26025f8128a"
   dependencies:
     eve-raphael "0.5.0"
 
@@ -6140,10 +6122,6 @@ scrypt@^6.0.3:
 select2@^3.5.2-browserify:
   version "3.5.2-browserify"
   resolved "https://registry.yarnpkg.com/select2/-/select2-3.5.2-browserify.tgz#dc4dafda38d67a734e8a97a46f0d3529ae05391d"
-
-select@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
 
 "semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0:
   version "5.3.0"
@@ -6778,10 +6756,6 @@ timers-ext@0.1:
   dependencies:
     es5-ext "~0.10.14"
     next-tick "1"
-
-tiny-emitter@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-1.1.0.tgz#ab405a21ffed814a76c19739648093d70654fecb"
 
 tmp@0.0.28:
   version "0.0.28"
